@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TO DO - App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>My to do list</h1>
+        <form action="">
+            <input type="text" placeholder="Your to do" onfocus="placeholder = ''" onblur="placeholder = 'Your to do'">
+            <button>add</button>
+        </form>
+        <div class="input-wrap">
+            <input type="text" placeholder="Search in your list" class="search" onfocus="placeholder = ''"
+                onblur="placeholder = 'Search in your list'">
+            <i class="fas fa-search"></i>
+        </div>
+        <h2>To dos: <span>0</span></h2>
+        <ul></ul>
+        <div class="bell">
+            <i class="fas fa-bell"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
