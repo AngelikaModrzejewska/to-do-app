@@ -75,15 +75,6 @@ h1 {
   font-weight: 500;
 }
 
-/* input[type="text"],
-button {
-  height: 50px;
-  border: 2px solid var(--blue);
-  margin: 10px 20px;
-  font-size: 13px;
-  font-weight: 300;
-} */
-
 input[type="text"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
