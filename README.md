@@ -6,4 +6,4 @@ You can also remove a to do from the list (the bell rotates faster when you do a
 ## Used techniques
 
 * javascript
-* keyframes-animations (bell rotation)
+* CSS keyframes-animations (bell rotation)
